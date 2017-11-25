@@ -17,4 +17,5 @@ header {
   height: 69px;
   border-bottom: 1px solid seashell;
   align-items: center;
+  justify-content: space-between;
 }
