@@ -22,8 +22,8 @@ header {
   padding: 0 10px 0 10px;
   position: fixed;
   z-index: 1;
-  width: 99%;
-  top: 1px;
+  width: 98%;
+  top: 0;
 }
 
 nav {
@@ -43,7 +43,7 @@ main {
   display: flex;
   justify-content: center;
   position: relative;
-  top: 65px;
+  top: 69px;
 }
 
 #mission {
