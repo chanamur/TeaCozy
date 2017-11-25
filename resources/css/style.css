@@ -18,5 +18,14 @@ header {
   border-bottom: 1px solid seashell;
   align-items: center;
   justify-content: space-between;
-  padding: 0 10px;
+  padding: 0 0 0 10px;
+}
+
+nav {
+  display: flex;
+}
+
+nav div {
+  padding: 10px;
+  justify-content: space-around;
 }
