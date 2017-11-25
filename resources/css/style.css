@@ -15,14 +15,14 @@ a {
 header {
   display: flex;
   height: 69px;
+  background-color: black;
   border-bottom: 1px solid seashell;
   align-items: center;
   justify-content: space-between;
   padding: 0 0 0 10px;
-  /** see if ok
   position: fixed;
   z-index: 1;
-  width: 99%; **/
+  width: 100%;
 }
 
 nav {
@@ -40,10 +40,25 @@ nav div {
 main {
   display: flex;
   justify-content: center;
+  position: relative;
+  top: 69px;
 }
 
 #mission {
+  display: flex;
   background-image: url("../pics/img-mission-background.jpg");
   width: 1200px;
   height: 700px;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner {
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+}
+
+main h2, h4 {
+  margin: 10px;
 }
