@@ -67,7 +67,7 @@ main h2, h4 {
 
 /** selection of the month **/
 
-section {
+.selection {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -78,7 +78,7 @@ section {
   width: 1000px;
 }
 
-section h2, h4 {
+.selection h2, h4 {
   margin: 10px;
 }
 
