@@ -81,3 +81,13 @@ section {
 section h2, h4 {
   margin: 10px;
 }
+
+.teas {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+section img {
+  padding: 15px;
+}
