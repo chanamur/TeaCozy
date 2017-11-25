@@ -6,6 +6,11 @@ body {
   opacity: 0.9;
 }
 
+a {
+  color: seashell;
+}
+
+/** header **/
 
 header {
   display: flex;
