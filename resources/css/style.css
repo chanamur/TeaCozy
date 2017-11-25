@@ -100,9 +100,15 @@ main h2, h4 {
 
 .location {
   display: flex;
-  background-image: url("../pics/img-locations-background.jpg");
-  width: 1200px;
-  height: 500px;
   position: relative;
   top: 69px;
+  padding-top: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+#findus {
+  width: 1200px;
+  height: 500px;
+  background-image: url("../pics/img-locations-background.jpg");
 }
