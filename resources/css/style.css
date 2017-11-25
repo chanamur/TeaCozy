@@ -11,4 +11,5 @@ header {
   display: flex;
   height: 69px;
   border-bottom: 1px solid seashell;
+  align-items: center;
 }
