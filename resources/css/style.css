@@ -23,6 +23,7 @@ header {
   position: fixed;
   z-index: 1;
   width: 100%;
+  top: 0;
 }
 
 nav {
@@ -60,5 +61,23 @@ main {
 }
 
 main h2, h4 {
+  margin: 10px;
+}
+
+
+/** selection of the month **/
+
+section {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+  top: 69px;
+  padding-top: 30px;
+  align-items: center;
+  width: 1000px;
+}
+
+section h2, h4 {
   margin: 10px;
 }
