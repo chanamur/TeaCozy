@@ -105,9 +105,10 @@ main h2, h4 {
 /** location **/
 
 .location-container {
-  background-image: url("../pics/img-location-background.jpg");
+  background-image: url("../pics/img-locations-background.jpg");
   width: 1200px;
   height: 500px;
+  padding-top: 70px;
   }
 
 
