@@ -104,6 +104,11 @@ main h2, h4 {
 
 /** location **/
 
+.location-container {
+  background-image: url("../pics/img/location-background");
+  width: 1200px;
+  height: 500px;
+  }
 
 
 /** contact **/
