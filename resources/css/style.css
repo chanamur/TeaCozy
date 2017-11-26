@@ -54,7 +54,9 @@ main {
   height: 700px;
   justify-content: center;
   align-items: center;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 138px;
   position: relative;
   top: 63px;
 }
@@ -66,7 +68,14 @@ main {
   width: 1200px;
   text-align: center;
   justify-content: center;
+  margin-bottom: 100px;
 }
+
+.banner h2,
+.banner h4 {
+  margin: 10px;
+}
+
 
 /**
 main {
@@ -95,12 +104,41 @@ main {
 
 **/
 
-main h2, h4 {
-  margin: 10px;
-}
+
+
 
 /** selection of the month **/
 
+.selection-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 1000px;
+  margin: auto;
+}
+
+.selection-container h2,
+.selection-container h4 {
+  margin: 10px;
+}
+
+.teas {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  margin-bottom: 70px;
+}
+
+.descrip {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+
+/**
 .selection {
   display: flex;
   flex-direction: column;
@@ -108,6 +146,8 @@ main h2, h4 {
   padding-top: 65px;
   align-items: center;
   width: 1000px;
+  position: relative;
+  top: 63px;
 }
 
 .selection h2, h4 {
@@ -127,6 +167,11 @@ main h2, h4 {
   align-items: center;
   padding: 0 15px;
 }
+
+**/
+
+
+
 
 /** location **/
 
