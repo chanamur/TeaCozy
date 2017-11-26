@@ -1,5 +1,4 @@
 body {
-  width: 100%;
   font-family: Helvetica;
   font-size: 22px;
   color: seashell;
@@ -77,35 +76,6 @@ main {
 }
 
 
-/**
-main {
-  display: flex;
-  justify-content: center;
-  padding-top: 65px;
-}
-
-.mission {
-  display: flex;
-  background-image: url("../pics/img-mission-background.jpg");
-  width: 1200px;
-  height: 700px;
-  justify-content: center;
-  align-items: center;
-}
-
-.banner {
-  display: flex;
-  flex-direction: column;
-  background-color: black;
-  width: 1200px;
-  text-align: center;
-  justify-content: center;
-}
-
-**/
-
-
-
 
 /** selection of the month **/
 
@@ -115,7 +85,9 @@ main {
   align-items: center;
   justify-content: flex-start;
   width: 1000px;
-  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 69px;
 }
 
 .selection-container h2,
@@ -127,50 +99,14 @@ main {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  margin-bottom: 70px;
 }
 
 .descrip {
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px;
+  margin: 15px;
 }
-
-
-/**
-.selection {
-  display: flex;
-  flex-direction: column;
-  margin: 0 auto;
-  padding-top: 65px;
-  align-items: center;
-  width: 1000px;
-  position: relative;
-  top: 63px;
-}
-
-.selection h2, h4 {
-  margin: 10px;
-}
-
-.teas {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  margin-bottom: 70px;
-}
-
-.descrip {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 0 15px;
-}
-
-**/
-
-
 
 
 /** location **/
@@ -180,7 +116,12 @@ main {
 	width: 1200px;
 	height: 500px;
 	margin: 0 auto;
-	padding-top: 70px;
+	padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.location-container h2 {
+  margin-bottom: 15px;
 }
 
 .locations {
@@ -189,8 +130,6 @@ main {
 	margin: auto;
 	display: flex;
 	justify-content: space-between;
-	align-items: center;
-	margin-top: 15px;
 }
 
 .address {
@@ -207,6 +146,10 @@ main {
 
 .contact {
   height: 200px;
+}
+
+.contact h2 {
+  margin-top: 10px;
 }
 
 /** footer **/
