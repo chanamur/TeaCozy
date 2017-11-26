@@ -112,6 +112,13 @@ main h2, h4 {
 	background-image: url("../pics/img-locations-background.jpg");
 }
 
+.location {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+}
+
 .address {
   background-color: black;
   width: 300px;
