@@ -19,22 +19,24 @@ header {
   border-bottom: 1px solid seashell;
   align-items: center;
   justify-content: space-between;
-  padding: 0 10px 0 10px;
   position: fixed;
-  z-index: 1;
-  width: 98%;
-  top: 0;
+  z-index: 5;
+  width: 100%;
+}
+
+header img {
+   height: 50px;
+   margin-left: 10px;
 }
 
 nav {
-  display: flex;
-  justify-content: space-around;
+  margin-right: 20px
 }
 
 nav div {
-  padding: 10px;
+  display: inline;
+	padding: 0 10px;
 }
-
 
 
 /** main section **/
