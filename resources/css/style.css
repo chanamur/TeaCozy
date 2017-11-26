@@ -48,7 +48,7 @@ main {
   top: 69px;
 }
 
-#mission {
+.mission {
   display: flex;
   background-image: url("../pics/img-mission-background.jpg");
   width: 1200px;
@@ -58,14 +58,18 @@ main {
 }
 
 .banner {
+  display: flex;
+  flex-direction: column;
   background-color: black;
   width: 1200px;
   text-align: center;
+  justify-content: center;
 }
 
 main h2, h4 {
   margin: 10px;
 }
+
 
 
 /** selection of the month **/
