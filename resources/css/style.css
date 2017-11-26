@@ -49,6 +49,28 @@ nav div {
 
 main {
   display: flex;
+  background-image: url("../pics/img-mission-background.jpg");
+  width: 1200px;
+  height: 700px;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  position: relative;
+  top: 63px;
+}
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  width: 1200px;
+  text-align: center;
+  justify-content: center;
+}
+
+/**
+main {
+  display: flex;
   justify-content: center;
   padding-top: 65px;
 }
@@ -70,6 +92,8 @@ main {
   text-align: center;
   justify-content: center;
 }
+
+**/
 
 main h2, h4 {
   margin: 10px;
