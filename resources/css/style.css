@@ -4,6 +4,7 @@ body {
   color: seashell;
   background-color: black;
   opacity: 0.9;
+  text-align: center;
 }
 
 a {
@@ -80,7 +81,7 @@ main h2, h4 {
   flex-direction: column;
   margin: 0 auto;
   position: relative;
-  top: 69px;
+  top: 63px;
   padding-top: 30px;
   align-items: center;
   width: 1000px;
@@ -104,3 +105,15 @@ main h2, h4 {
 }
 
 /** location **/
+
+
+
+/** contact **/
+
+.contact {
+  position: relative;
+  top: 63px;
+  height: 200px;
+  width: 1200px;
+  margin: 0 auto;
+}
