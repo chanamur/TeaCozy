@@ -104,12 +104,18 @@ main h2, h4 {
 
 /** location **/
 
-.location {
+.location-container {
   width: 1200px;
 	height: 500px;
 	margin: auto;
 	padding-top: 70px;
 	background-image: url("../pics/img-locations-background.jpg");
+}
+
+.address {
+  background-color: black;
+  width: 300px;
+  height: 300px;
 }
 
 
