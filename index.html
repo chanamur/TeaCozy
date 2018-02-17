@@ -1,3 +1,9 @@
+<!-- trouver comment (jquery plugin ?) ajouter un menu déroulant qd on clique sur le burger ds nav -->
+<!-- corriger cadres noirs avec adresses -->
+
+
+
+
 <!DOCTYPE html>
 <html>
   <head>
@@ -14,9 +20,10 @@
         <img src="resources/pics/img-tea-cozy-logo.png" alt="Tea Cozy Logo">
       </div>
       <nav>
-        <div><a href="#mission">Mission</a></div>
-        <div><a href="#teas">Featured Teas</a></div>
-        <div><a href="#location">Locations</a></div>
+        <div class="nav-desktop"><a href="#mission">Mission</a></div>
+        <div class="nav-desktop"><a href="#teas">Featured Teas</a></div>
+        <div class="nav-desktop"><a href="#location">Locations</a></div>
+        <div id="burger"><i class="fas fa-bars"></i></div>
       </nav>
     </div>
   </header>
@@ -35,23 +42,23 @@
     <h4>What's Steeping at The Tea Cozy</h4>
     <div class="teas">
       <div class="descrip">
-        <img src="resources/pics/img-berryblitz.jpg" alt="Berry Blitz" width="300px" height="200px">
+        <img src="resources/pics/img-berryblitz.jpg" alt="Berry Blitz">
         <h4>Fall Berry Blitz Tea</h4>
       </div>
       <div class="descrip">
-        <img src="resources/pics/img-spiced-rum.jpg" alt="Spiced Rum" width="300px" height="200px">
+        <img src="resources/pics/img-spiced-rum.jpg" alt="Spiced Rum">
         <h4>Spiced Rum Tea</h4>
       </div>
       <div class="descrip">
-        <img src="resources/pics/img-donut.jpg" alt="Donut" width="300px" height="200px">
+        <img src="resources/pics/img-donut.jpg" alt="Donut">
         <h4>Seasonal Donuts</h4>
       </div>
       <div class="descrip">
-        <img src="resources/pics/img-myrtle-ave.jpg" alt="Myrtle Ave" width="300px" height="200px">
+        <img src="resources/pics/img-myrtle-ave.jpg" alt="Myrtle Ave">
         <h4>Myrtle Ave Tea</h4>
       </div>
       <div class="descrip">
-        <img src="resources/pics/img-bedford-bizarre.jpg" alt="Bedford Bizarre" width="300px" height="200px">
+        <img src="resources/pics/img-bedford-bizarre.jpg" alt="Bedford Bizarre">
         <h4>Bedford Bizarre Tea</h4>
       </div>
     </div>
@@ -95,5 +102,6 @@
     <h5>copyright The Tea Cozy 2017</h5>
   </footer>
 
+  <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
   </body>
 </html>
