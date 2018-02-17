@@ -43,13 +43,20 @@ nav div {
   padding: 0 10px;
 }
 
+#burger {
+  display: none;
+}
+
 
 /* main section */
 
 main {
   display: flex;
   background-image: url("../pics/img-mission-background.jpg");
-  width: 1200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 80%;
   height: 700px;
   justify-content: center;
   align-items: center;
@@ -64,7 +71,7 @@ main {
   display: flex;
   flex-direction: column;
   background-color: black;
-  width: 1200px;
+  width: 100%;
   text-align: center;
   justify-content: center;
   margin-bottom: 100px;
@@ -83,7 +90,7 @@ main {
   flex-direction: column;
   align-items: center;
   justify-content: flex-start;
-  width: 1000px;
+  width: 80%;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 69px;
@@ -105,6 +112,13 @@ main {
   flex-direction: column;
   align-items: center;
   margin: 15px;
+  max-width: 30%;
+  height: auto;
+}
+
+.descrip img {
+  max-width: 100%;
+  height: auto;
 }
 
 
@@ -112,7 +126,10 @@ main {
 
 .location-container {
   background-image: url("../pics/img-locations-background.jpg");
-	width: 1200px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+	width: 80%;
 	height: 500px;
 	margin: 0 auto;
 	padding-bottom: 30px;
@@ -124,7 +141,7 @@ main {
 }
 
 .locations {
-	width: 980px;
+	width: 80%;
 	height: 300px;
 	margin: auto;
 	display: flex;
@@ -133,8 +150,8 @@ main {
 
 .address {
   background-color: black;
-	width: 300px;
-	height: 300px;
+	width: 30.6%;
+	height: 100%;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -156,4 +173,69 @@ main {
 footer {
   text-align: left;
   margin-left: 20px;
+}
+
+
+
+/* media queries */
+
+@media only screen and (max-width: 1024px) {
+  .address h3 {
+    font-size: 20px;
+
+  }
+  .address p {
+    font-size: 15px;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+
+  #burger {
+    display: block;
+  }
+
+  .nav-desktop {
+    display: none;
+  }
+
+  .banner h2 {
+    font-size: 20px;
+  }
+
+  .banner h4 {
+    font-size: 16px;
+  }
+
+  .teas {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .descrip {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .locations {
+  	width: 100%;
+  }
+
+  .address {
+  	width: 32%;
+    margin: 10px;
+  }
+}
+
+
+@media only screen and (max-width: 480px) {
+  .address h3 {
+    font-size: 17px;
+
+  }
+  .address p {
+    font-size: 13px;
+  }
 }
